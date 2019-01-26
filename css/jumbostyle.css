@@ -1,0 +1,22 @@
+.jumbotron{
+    background: url("../img/devteam.jpeg") no-repeat center center; 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.title{
+    background-color: white;
+    opacity: .50;
+}
+
+.subtitle{
+    background-color: white;
+    opacity: .50;
+}
+
+.foot {
+    text-align: center;
+    border: 3px solid grey;
+  }
