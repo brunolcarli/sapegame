@@ -11,8 +11,36 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="css/video.css">
+        
+        <style>
+            .navbar {
+                margin-bottom: 0;
+                border-radius: 0;
+            }
+        </style>
     </head>
     <body>
+        <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="pages/gallery.html">Galeria</a></li>
+                        <li><a href="www/index.html">Jogar</a></li>
+                        <li><a href="https://drive.google.com/open?id=1rDqYm_Kgh5BMlOK82SlyRrl2ui2iekfQ">Download</a></li>
+                        <li><a href="pages/devpage.html">Desenvolvedores</a></li>
+                    </ul>
+                    </div>
+                </div>
+            </nav>
+                  
         <div class="jumbotron text-center">
                 <h1>Sapé: Enquanto houver casa</h1>
                 <p>Global Game Jam Curitiba 2019</p> 
@@ -50,13 +78,14 @@
                     </div>
                 </div>
             </div>
-            <p></p><p></p><p></p>
-            <div class="container">
-                <div class="video">
-                    <p>
-                        <img src="img/troll.gif"/>
-                    </p>
-                </div>
+            <p></p><p></p><p></p><hr />
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YF6Ow7vBCuk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
             </div>
+            <p></p><hr />
+            <footer class="container-fluid text-center">
+                <p>Pantero Games 2019</p>
+            </footer>
     </body>
 </html>

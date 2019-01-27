@@ -11,8 +11,35 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="../css/jumbostyle.css">
+        <style>
+            /* Remove the navbar's default margin-bottom and rounded borders */ 
+            .navbar {
+                margin-bottom: 0;
+                border-radius: 0;
+            }
+        </style>
     </head>
     <body>
+        <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../pages/gallery.html">Galeria</a></li>
+                        <li><a href="../www/index.html">Jogar</a></li>
+                        <li><a href="https://drive.google.com/open?id=1rDqYm_Kgh5BMlOK82SlyRrl2ui2iekfQ">Download</a></li>
+                        <li><a href="../pages/devpage.html">Desenvolvedores</a></li>
+                    </ul>
+                    </div>
+                </div>
+            </nav>
         <div class="jumbotron text-center">
             <h1 class="title">PANTERO Games</h1>
             <h3 class="subtitle">The best dev team you will ever meet!</p> 
@@ -102,19 +129,19 @@
                         </div>
 
                     <div class="col-sm-4">
-                        <h3>Giovanna A. Roth</h3>
+                        <h3>Giovanna A. Roth</h3>  <!-- *-* <3 <3 <3 <3 i dont know why, but her makes my heart beats strongly-->
                         <p>
                             Giovanna é academica de direito, ama estar com os amigos e escrever.
                             Seus hobbies favoritos são:  correr e ler.
                             Paixões: Assistir filmes em geral, Ouvir música e Dormir.
                         </p>
-                        <img src="../img/gio.jpeg" alt="Gi" class="img-circle">
+                        <img src="../img/gio.jpeg" alt="Gi" class="img-circle"> 
                     </div>
                 </div>
             </div>
             <p></p>
-            <div class="foot">
-                <p><a href="../index.html">Home</a></p>
-            </div>
+            <footer class="container-fluid text-center">
+                <p>Pantero Games 2019</p>
+            </footer>
     </body>
 </html>
